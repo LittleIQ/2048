@@ -56,7 +56,8 @@ function updateView() {
                 tileContainer.html(now + str);
             }
             if(game[i][j]===2048){
-                $('.game-intro').html('2048！恭喜你！');
+                $('.game-over p').html('2048！恭喜你！');
+                $('.game-over').fadeIn();
             }
         }
     }
