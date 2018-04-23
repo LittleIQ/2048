@@ -9,7 +9,7 @@ var gameM = {  // Left key.
     ARROW_RIGHT: 39,
     // Down key.
     ARROW_DOWN: 40
-}
+};
 touch.on($(window), 'swipeleft swiperight swipeup swipedown', (ev) => {
     switch (ev.type) {
         case 'swipeleft':
