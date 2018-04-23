@@ -7,7 +7,7 @@ function init() {
     addTile();
     addTile();
     scorce = 0;
-    paly = true;
+    play = true;
     $('#scorce').html('scorce: '+scorce);
     $('.game-over').fadeOut();
     updateView();
